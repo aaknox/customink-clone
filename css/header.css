@@ -1,0 +1,204 @@
+@keyframes fadeOut {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+#header{
+  padding: 10px 50px;
+  margin: 0 auto 50px;
+}
+#header .logo{
+  width: 50%;
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+}
+#header .logo .image-box{
+  width: 20%;
+  display: block;
+  float: left;
+}
+#header .logo .image-box::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+#header .logo img{
+  width: 100px;
+  display: block;
+  margin: 0 10px 0 0;
+}
+#header .logo .info-box{
+  width: 80%;
+  display: block;
+  float: left;
+  padding: 25px 0;
+}
+#header .logo .info-box::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+#header .logo .company-title{
+  display: block;
+  margin: 0 20px 0 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+#header .logo .info{
+  display: block;
+  margin: 0 20px 0 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+#header .menu{
+  background: #12479b; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #12479b 0%, #26203f 50%, #000000 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #12479b 0%,#26203f 50%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #12479b 0%,#26203f 50%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.16),0px 3px 6px rgba(0,0,0,0.23);
+  width: 100%;
+  text-align: end;
+  padding: 50px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  transition: all 0.4s ease-in-out;
+}
+#header .menu::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+#header .menu a{
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 1.2rem;
+  transition: 0.4s ease-in-out;
+  text-align: center;
+}
+#header .menu a:last-child{
+  padding-right: 0;
+}
+#header .menu a hr{
+  visibility: hidden;
+  color: #d63946;
+  display: block;
+  height: 1px;
+  margin: 0;
+}
+#header .menu a:hover hr{
+  visibility: visible;
+  display: block;
+  height: 1px;
+  margin: 0;
+}
+.viewable {
+  animation:  fadeIn 0.1s ease-in-out 0s 1 alternate forwards running;
+}
+.opaque {
+  animation:  fadeOut 0.3s ease-in-out 0s 1 alternate forwards running;
+}
+
+/******************media queries************************/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #header {
+    padding: 0px
+    margin: 0 auto;
+  }
+  #header .logo .image-box {
+    padding: 0;
+    margin-right: 40px;
+    width: 20%;
+}
+  #header .logo img {
+    width: 50px;
+  }
+  #header .logo .info-box {
+    width: 50%;
+    padding: 0;
+}
+  #header .logo .company-title {
+    font-size: 0.9rem;
+  }
+  #header .logo .info {
+    font-size: 0.6rem;
+    margin: 0;
+  }
+  #header .menu {
+    text-align: center;
+    padding: 25px 0;
+    padding-left: 100px;
+  }
+  #header .menu a {
+    width: 10%;
+    padding: 0px;
+    font-size: 0.6rem;
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  #header {
+    padding: 0px;
+    margin: 0 auto;
+  }
+  #header .logo .image-box {
+    padding: 10px;
+    margin-right: 0px;
+    width: 20%;
+ }
+  #header .logo img {
+    width: 50px;
+  }
+  #header .logo .info-box {
+    width: 50%;
+    padding: 20px 0;
+}
+  #header .logo .company-title {
+    font-size: 0.9rem;
+  }
+  #header .logo .info {
+    font-size: 0.6rem;
+    margin: 0;
+  }
+  #header .menu {
+    text-align: center;
+    padding: 25px 0;
+    padding-left: 100px;
+  }
+  #header .menu a {
+    width: 10%;
+    padding: 0px;
+    font-size: 0.6rem;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}

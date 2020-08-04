@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Custom Ink | Clone </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/b825c1b0e8.js" crossorigin="anonymous"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.js"
+    integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+    crossorigin="anonymous">
+    </script>
+
+    <link rel="shortcut icon" src="img/site-logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <div class="image-box">
+          <img src="img/site-logo.png" alt="">
+        </div>
+        <div class="info-box">
+          <h1 class="company-title">Personalized Fashions</h1>
+          <span class="info">The #1 custom design site in your local area</span>
+        </div>
+      </div>
+      <nav class="menu">
+        <a href="#">Order Now<hr></a>
+        <a href="#">Support Center<hr></a>
+        <a href="#">Your Account<hr></a>
+      </nav>
+    </header>
+
+    <section id="ad-gallery">
+      <div class="slideshow-container">
+        <figure id="slideshow">
+          <div class="slide">
+            <img id="flip" src="img/assorted-t-shirts.jpg" alt="">
+          </div>
+        </figure>
+      </div>
+      <div class="ad-container">
+        <span class="slogan-1">Stay Apart,</span>
+        <span class="slogan-2">Stand Together</span>
+        <p class="ad-info">Design custom t-shirts & more</p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+    </section>
+    <section id="design-lab">
+      <img src="img/blank-t-shirt-bg.png" alt="" class="tee-bg">
+      <img src="img/blank-t-shirt.png" alt="" class="blank-tee">
+      <div id="canvas">
+        <div class="container">
+          <div id="color" class="color-btn white" style="background: #ffffff;"></div>
+          <div class="color-btn black" style="background: #000000;"></div>
+          <div id="color" class="color-btn navy" style="background: #0a0a79;"></div>
+          <div id="color" class="color-btn red" style="background: #f30000;"></div>
+          <div id="color" class="color-btn charcoal" style="background: #494646;"></div>
+          <div id="color" class="color-btn royalblue" style="background: #3c3cf1;"></div>
+          <div id="color" class="color-btn militarygreen" style="background: #4b5320;"></div>
+          <div id="color" class="color-btn purple" style="background: #491051;"></div>
+          <div id="color" class="color-btn pink" style="background: #ff69c9;"></div>
+          <div id="color" class="color-btn orange" style="background: #fb9906;"></div>
+          <div id="color" class="color-btn lightblue" style="background: #90bae0;"></div>
+          <div id="color" class="color-btn yellow" style="background: #e7fc00;"></div>
+        </div>
+      </div>
+      <div class="info">
+        <h1>Design Lab</h1>
+        <h3>Selected Color:</h3>
+        <div class="selected"></div>
+        <h2 id="header2">Color Name</h2>
+        <span>Choose your shirt color and start designing!</span>
+        <!-- <input type="text" class="message" name="message" placeholder="Write your custom message..."> -->
+        <a href="#design-lab" class="submit-btn">Save Template</a>
+      </div>
+      <div class="notification notify-inactive">
+        <div class="logo-box">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="notify-msg">
+          <h1 class="saved">Saved!</h1>
+          <span>Your template has been saved.</span>
+          <span>31 Jul 2020 12:44 AM</span>
+        </div>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>

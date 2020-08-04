@@ -1,0 +1,18 @@
+@import "reset.css";
+@import "header.css";
+@import "ad-gallery.css";
+@import "design-lab.css";
+
+*{
+  box-sizing: border-box;
+}
+html, body{
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover{
+  color: #d63946;
+}

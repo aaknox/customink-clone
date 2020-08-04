@@ -1,0 +1,121 @@
+#ad-gallery {
+  display: inline-block;
+  margin-top: 50px;
+}
+#ad-gallery .slideshow-container{
+  display: inline-block;
+  width: 70%;
+}
+#ad-gallery .slideshow-container #slideshow img{
+  width: 100%;
+  height: 468px;
+  display: block;
+}
+#ad-gallery .ad-container{
+  background: #f22121; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #f22121 0%, #7f0e00 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #f22121 0%,#7f0e00 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #f22121 0%,#7f0e00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 50px;
+  margin: 0 auto;
+  height: 468px;
+  width: 30%;
+  float: right;
+}
+#ad-gallery .ad-container::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+#ad-gallery .ad-container .slogan-1,
+#ad-gallery .ad-container .slogan-2{
+  margin: 20px auto;
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-shadow: 1px -1px 0 #767676,
+  -1px 2px 1px #737272,
+  -2px 4px 1px #767474,
+  -3px 6px 1px #787777,
+  -4px 8px 1px #7b7a7a,
+  -5px 10px 1px #7f7d7d;
+}
+#ad-gallery .ad-container .ad-info{
+  margin: 50px auto 100px auto;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #ffffff;
+}
+#ad-gallery .ad-container .btn{
+  width: 60%;
+  text-align: center;
+  padding: 10px 50px;
+  border-radius: 20px;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.4s ease-in-out;
+}
+#ad-gallery .ad-container .btn:hover{
+  background: #7dc8f2;
+  background-color: #7dc8f2;
+  color: #ffffff;
+}
+
+/**************MEDIA QUERIES*****************/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #ad-gallery {
+    margin-top: 0px;
+  }
+  #ad-gallery .slideshow-container {
+     width: 50%;
+   }
+   #ad-gallery .slideshow-container #slideshow img{
+     width: 100%;
+     height: 268px;
+   }
+   #ad-gallery .ad-container {
+     padding: 20px;
+     width: 50%;
+     height: 268px;
+   }
+   #ad-gallery .ad-container .slogan-1,
+   #ad-gallery .ad-container .slogan-2{
+     margin: 10px auto;
+     font-size: 1.5rem;
+   }
+   #ad-gallery .ad-container .ad-info {
+    margin: 15px auto 20px auto;
+    font-size: 0.6rem;
+   }
+   #ad-gallery .ad-container .btn {
+     padding: 10px 15px;
+     font-size: 0.6rem;
+     display: inline;
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  #ad-gallery .slideshow-container {
+    width: 60%;
+  }
+  #ad-gallery .ad-container {
+    width: 40%;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
