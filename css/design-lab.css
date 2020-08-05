@@ -121,6 +121,7 @@
   display: block;
 }
 #design-lab .notification{
+  display: block;
   padding: 5px;
   background: white;
   color: black;
