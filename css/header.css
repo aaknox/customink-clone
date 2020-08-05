@@ -28,7 +28,7 @@
   width: 50%;
   display: inline-block;
   position: absolute;
-  z-index: 2;
+  z-index: 3;
 }
 #header .logo .image-box{
   width: 20%;
