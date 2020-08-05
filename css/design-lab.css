@@ -193,7 +193,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #design-lab {
-    margin: 20px auto;
+    margin: 20px auto 50px;
     height: 80vh;
   }
   #design-lab .tee-bg,
@@ -205,6 +205,9 @@
     width: 50%;
     height: 300px;
   }
+  #design-lab #canvas .container {
+    height: 300px;
+  }
   #design-lab #canvas .color-btn {
     height: 72px;
   }
@@ -213,7 +216,9 @@
   }
   #design-lab .info {
     height: 150px;
+    width: 100%;
     float: none;
+    padding: 10px 0px;
   }
   #design-lab .info h1 {
     font-size: 1.5rem;
