@@ -243,3 +243,54 @@
     font-size: 0.8rem;
   }
 }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  #design-lab {
+    height: 400px;
+  }
+  #design-lab .tee-bg,
+  #design-lab .blank-tee{
+    height: 400px;
+  }
+  #design-lab #canvas {
+    height: 400px;
+  }
+  #design-lab #canvas .container {
+    height: 400px;
+  }
+  #design-lab #canvas .color-btn {
+    height: 96px;
+  }
+  #design-lab #canvas .color-btn .fas {
+    font-size: 3rem;
+  }
+  #design-lab .info {
+    padding: 25px 0px;
+    height: 400px;
+  }
+  #design-lab .info h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  #design-lab .info h3 {
+    font-size: 1.2rem;
+    margin-right: 20px;
+  }
+  #design-lab .info .selected {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 3px;
+  }
+  #design-lab .info span {
+    font-size: 1rem;
+    margin-top: 35px;
+    padding: 0px 15px;
+  }
+  #design-lab .info .submit-btn {
+    width: 150px;
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+}
