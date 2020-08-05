@@ -149,11 +149,12 @@
   #header .menu {
     text-align: center;
     padding: 25px 0;
-    padding-left: 100px;
+    padding-left: 200px;
   }
   #header .menu a {
     width: 10%;
     padding: 0px;
+    margin: 0 10px;
     font-size: 0.6rem;
   }
 }
