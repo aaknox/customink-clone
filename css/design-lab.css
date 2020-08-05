@@ -188,3 +188,53 @@
 .notify-inactive{
   display: none !important;
 }
+
+/**********************MEDIA QUERIES*************************/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #design-lab {
+    margin: 20px auto;
+    height: 80vh;
+  }
+  #design-lab .tee-bg,
+  #design-lab .blank-tee{
+    width: 50%;
+    height: 300px;
+  }
+  #design-lab #canvas {
+    width: 50%;
+    height: 300px;
+  }
+  #design-lab #canvas .color-btn {
+    height: 72px;
+  }
+  #design-lab #canvas .color-btn .fas {
+    font-size: 3rem;
+  }
+  #design-lab .info {
+    height: 150px;
+    float: none;
+  }
+  #design-lab .info h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  #design-lab .info h3 {
+    font-size: 1rem;
+  }
+  #design-lab .info .selected {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+  }
+  #design-lab .info span {
+    display: none;
+  }
+  #design-lab .info .submit-btn {
+    width: 150px;
+    margin: 10px auto 10px;
+    padding: 10px 30px;
+    font-size: 0.8rem;
+  }
+}
