@@ -54,13 +54,15 @@ $(document).ready(function(){
     var color = $( this ).css( "background-color" );
     //add or remove class
     if ($(this).hasClass("userCurrentChoice")){
-      $(this).removeClass("userCurrentChoice");
+      //$(this).removeClass("userCurrentChoice");
+      $('.color-btn').not(this).removeClass('userCurrentChoice');
       $('.fas').remove();
       $(this).css( "border", 'none' );
       tshirtImg.css("background-color", 'transparent');
       $( ".selected" ).css( "background", "#ffffff" );
     } else {
-      $(this).addClass("userCurrentChoice");
+      $('.color-btn').not(this).addClass('userCurrentChoice');
+      //$(this).addClass("userCurrentChoice");
       $(this).append('<i class="fas fa-check-circle"></i>');
       $(this).css( "border", '5px solid #29fd00' );
       tshirtImg.css("background-color", color);
