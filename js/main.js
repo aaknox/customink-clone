@@ -52,7 +52,8 @@ $(document).ready(function(){
   $(".color-btn").click(function(){
     //variables
     var color = $( this ).css( "background-color" );
-    //add or remove class
+    //add selected feature if and only if color has not been selected yet
+    //if color has been selected previously --> removed selected feature off of previous color & select new color
     if ($(this).hasClass("userCurrentChoice")){
       $(this).removeClass("userCurrentChoice");
       //$('.color-btn').not(this).removeClass('userCurrentChoice');
@@ -61,7 +62,7 @@ $(document).ready(function(){
       tshirtImg.css("background-color", 'transparent');
       $( ".selected" ).css( "background", "#ffffff" );
     } else {
-      $('.color-btn').not(this).removeClass('userCurrentChoice');
+      //$('.color-btn').not(this).removeClass('userCurrentChoice');
       $(this).addClass("userCurrentChoice");
       $(this).append('<i class="fas fa-check-circle"></i>');
       $(this).css( "border", '5px solid #29fd00' );
