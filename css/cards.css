@@ -32,7 +32,7 @@
   left: 30px;
 }
 .cards a{
-  background: #252345;
+  background: #144493;
   border-radius: 20px;
   color: white;
   font-weight: 700;
@@ -43,6 +43,10 @@
   position: absolute;
   right: 75px;
   bottom: 30px;
+}
+.cards a:hover{
+  background: #252345;
+  border: 10px solid black;
 }
 .cards .benefits-list li{
   padding: 10px;
