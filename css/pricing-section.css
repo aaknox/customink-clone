@@ -16,4 +16,8 @@
 }
 #pricing-section #card-container{
   width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  left: 30px;
 }
