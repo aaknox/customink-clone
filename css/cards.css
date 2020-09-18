@@ -45,4 +45,10 @@
 }
 .cards .benefits-list li{
   padding: 10px;
+  text-align: left;
+}
+.cards .benefits-list li .fas{
+  padding-right: 10px;
+  color: #fb0625;
+  font-size: 1.2rem;
 }
