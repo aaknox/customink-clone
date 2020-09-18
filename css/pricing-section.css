@@ -3,3 +3,8 @@
   padding: 30px;
   margin-bottom: 100px;
 }
+#pricing-section h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
