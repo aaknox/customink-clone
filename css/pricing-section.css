@@ -21,3 +21,12 @@
   position: relative;
   left: 30px;
 }
+#pricing-section a{
+  background: black;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+}
