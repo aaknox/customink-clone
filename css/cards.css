@@ -43,11 +43,11 @@
   right: 75px;
   bottom: 30px;
 }
-/*#pricing-section .cards:nth-child(2) a{
-  position: relative;
-  top: 183px;
+.cards ul:before{
+  content: "\f553";
+  font-family: "Font Awesome 5 Free";
+  padding: 0 10px 0 0;
 }
-#pricing-section .cards:nth-child(3) a{
-  position: relative;
-  top: 150px;
-}*/
+.cards ul{
+  list-style-type: none;
+}
