@@ -2,6 +2,7 @@
 @import "header.css";
 @import "ad-gallery.css";
 @import "design-lab.css";
+@import "pricing-section.css";
 
 *{
   box-sizing: border-box;
