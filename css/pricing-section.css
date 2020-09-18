@@ -29,7 +29,7 @@
   padding: 10px 50px;
   text-align: center;
   text-decoration: none;
-  position: absolute;
+  position: relative;
   right: 0;
   bottom: 0;
 }
