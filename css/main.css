@@ -3,6 +3,7 @@
 @import "ad-gallery.css";
 @import "design-lab.css";
 @import "pricing-section.css";
+@import "cards.css";
 
 *{
   box-sizing: border-box;
