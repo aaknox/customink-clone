@@ -32,7 +32,7 @@
   left: 30px;
 }
 .cards a{
-  background: #fb0625;
+  background: #252345;
   border-radius: 20px;
   color: white;
   font-weight: 700;
@@ -50,6 +50,6 @@
 }
 .cards .benefits-list li .fas{
   padding-right: 10px;
-  color: #fb0625;
+  color: #144493;
   font-size: 1.2rem;
 }
