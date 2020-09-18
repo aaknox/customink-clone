@@ -4,6 +4,12 @@
   padding: 20px;
   text-align: center;
   box-shadow: 2px 4px 10px 4px red; 
+  float: left;
+}
+.cards:after{
+  clear: both;
+  content: "";
+  display: table;
 }
 .cards h2{
   font-weight: 600;
