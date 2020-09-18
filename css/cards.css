@@ -47,6 +47,7 @@
 }
 .cards a:hover{
   background: #413f43;
+  color: white;
 }
 .cards .benefits-list li{
   padding: 10px;
