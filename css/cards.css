@@ -6,6 +6,7 @@
   text-align: center;
   box-shadow: 2px 4px 10px 4px #144494; 
   float: left;
+  position: relative;
 }
 .cards:after{
   clear: both;
@@ -17,3 +18,30 @@
   font-size: 1.2rem;
   margin: 10px auto;
 }
+#card-container{
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  left: 30px;
+}
+.cards a{
+  background: black;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+/*#pricing-section .cards:nth-child(2) a{
+  position: relative;
+  top: 183px;
+}
+#pricing-section .cards:nth-child(3) a{
+  position: relative;
+  top: 150px;
+}*/
