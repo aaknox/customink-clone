@@ -33,11 +33,11 @@
   right: 0;
   top: 200px;
 }
-#pricing-section a:nth-child(2){
+#pricing-section .cards:nth-child(2) a{
   position: relative;
   top: 190px;
 }
-#pricing-section a:nth-child(3){
+#pricing-section .cards:nth-child(3) a{
   position: relative;
   top: 150px;
 }
