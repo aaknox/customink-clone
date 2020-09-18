@@ -43,10 +43,11 @@
   position: absolute;
   right: 75px;
   bottom: 30px;
+  transition: 0.4s ease-in-out;
 }
 .cards a:hover{
-  background: #252345;
-  border: 10px solid black;
+  background: #413f43;
+  border: 1px solid black;
 }
 .cards .benefits-list li{
   padding: 10px;
