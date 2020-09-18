@@ -29,5 +29,7 @@
   padding: 10px 50px;
   text-align: center;
   text-decoration: none;
-  vertical-align: bottom;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
