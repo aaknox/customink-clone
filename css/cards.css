@@ -1,7 +1,12 @@
 .cards{
-  margin: 0 auto;
-  width: 33%;
+  margin: 0 10px;
+  width: 30%;
   padding: 20px;
   text-align: center;
   box-shadow: 2px 4px 10px 4px red; 
+}
+.cards h2{
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin: 10px auto;
 }
