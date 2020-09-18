@@ -43,11 +43,8 @@
   right: 75px;
   bottom: 30px;
 }
-.cards ul:before{
+.cards .benefits-list:before{
   content: "\f553";
   font-family: "Font Awesome 5 Free";
   padding: 0 10px 0 0;
-}
-.cards ul{
-  list-style-type: none;
 }
