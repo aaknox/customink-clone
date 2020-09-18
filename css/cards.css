@@ -3,7 +3,7 @@
   width: 30%;
   padding: 20px;
   text-align: center;
-  box-shadow: 2px 4px 10px 4px red; 
+  box-shadow: 2px 4px 10px 4px #144494; 
   float: left;
 }
 .cards:after{
