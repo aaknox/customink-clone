@@ -82,19 +82,6 @@ $(document).ready(function(){
         break;
     }
 })
-
-  // $(".submit-btn").click = function(){
-  //   console.log('save button clicked');
-  //   $(this).textContent = $('.saved').textContent;
-  //   if (notify.hasClass('notify-inactive')) {
-  //     notify.removeClass('notify-inactive');
-  //   } else{
-  //     setTimeout(function(){
-  //       notify.addClass('notify-inactive');
-  //     }, 3000);
-  //   }
-  // };
-
 });
 
 /**********END LOOP *********/
