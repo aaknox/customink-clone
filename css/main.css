@@ -4,6 +4,7 @@
 @import "design-lab.css";
 @import "pricing-section.css";
 @import "cards.css";
+@import "footer.css";
 
 *{
   box-sizing: border-box;
