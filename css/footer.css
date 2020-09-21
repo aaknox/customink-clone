@@ -17,5 +17,5 @@
 }
 #footer .head nav ul li:hover{
   color: #413f43;
-  border-bottom: 1px solid #fb0625;
+  text-decoration: underline;
 }
