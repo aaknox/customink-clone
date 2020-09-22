@@ -10,7 +10,7 @@
   margin-bottom: 50px;
 }
 #footer .head nav ul li{
-	text-align: center;
+  text-align: center;
   margin: 0 50px;
   font-size: 1.2rem;
   font-weight: 700;
@@ -38,7 +38,7 @@
   margin-right: 0;
 }
 #footer .body .social-body{
-  background: black;
+  
 }
 #footer .body .social-body nav ul li:nth-child(1),
 #footer .body .social-body nav ul li:nth-child(3),
@@ -48,6 +48,9 @@
 #footer .body .social-body nav ul li:nth-child(2),
 #footer .body .social-body nav ul li:nth-child(4){
   display: block;
+}
+#footer .body .social-body nav ul li a .fab{
+  color: #144493;
 }
 #footer .privacy-clause{
   line-height: 2;
