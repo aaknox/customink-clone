@@ -22,6 +22,9 @@
   color: #fb0625;
   text-decoration: underline;
 }
+#footer .body{
+  width: 100%;
+}
 #footer .foot .copyright{
   text-align: center;
   margin: 0 auto;
