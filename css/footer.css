@@ -40,6 +40,15 @@
 #footer .body .social-body{
   background: black;
 }
+#footer .body .social-body nav ul li:nth-child(1),
+#footer .body .social-body nav ul li:nth-child(3),
+#footer .body .social-body nav ul li:nth-child(5),{
+  display: inline;
+}
+#footer .body .social-body nav ul li:nth-child(2),
+#footer .body .social-body nav ul li:nth-child(4){
+  display: block;
+}
 #footer .privacy-clause{
   line-height: 2;
   margin-bottom: 125px;
