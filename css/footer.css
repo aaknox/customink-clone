@@ -27,9 +27,9 @@
 }
 #footer .body .social-body,
 #footer .body .contact-body,
-#footer .foot{
+#footer .body .copy-body{
   width: 30%;
-  margin: 0 auto;
+  display: inline;
 }
 #footer .foot .copyright{
   text-align: center;
