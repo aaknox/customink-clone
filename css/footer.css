@@ -25,6 +25,12 @@
 #footer .body{
   width: 100%;
 }
+#footer .body .social-body,
+#footer .body .contact-body,
+#footer .foot{
+  width: 30%;
+  margin: 0 auto;
+}
 #footer .foot .copyright{
   text-align: center;
   margin: 0 auto;
