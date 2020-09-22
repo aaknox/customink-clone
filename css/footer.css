@@ -40,7 +40,12 @@
 #footer .body .social-body{
   background: black;
 }
-#footer .foot .copyright{
+#footer .privacy-clause{
+  line-height: 2;
+  margin-bottom: 50px;
+}
+#footer .copyright{
+  margin-top: 50px;
   text-align: center;
   margin: 0 auto;
   display: block;
