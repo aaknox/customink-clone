@@ -42,11 +42,9 @@
 }
 #footer .privacy-clause{
   line-height: 2;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 #footer .copyright{
-  margin-top: 50px;
-  text-align: center;
   margin: 0 auto;
   display: block;
   font-weight: 300;
