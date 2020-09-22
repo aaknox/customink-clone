@@ -25,12 +25,17 @@
 #footer .body{
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 #footer .body .social-body,
 #footer .body .contact-body,
 #footer .body .copy-body{
   width: 30%;
   display: inline;
+  margin-right: 50px;
+}
+#footer .body .copy-body{
+  margin-right: 0;
 }
 #footer .body .social-body{
   background: black;
