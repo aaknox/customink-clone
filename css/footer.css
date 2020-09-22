@@ -32,6 +32,9 @@
   width: 30%;
   display: inline;
 }
+#footer .body .social-body{
+  background: black;
+}
 #footer .foot .copyright{
   text-align: center;
   margin: 0 auto;
