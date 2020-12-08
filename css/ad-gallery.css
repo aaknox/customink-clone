@@ -10,6 +10,7 @@
   width: 100%;
   height: 468px;
   display: block;
+  object-fit: contain;
 }
 #ad-gallery .ad-container{
   background: #f22121; /* Old browsers */
