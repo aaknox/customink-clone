@@ -68,6 +68,11 @@
   background-color: #7dc8f2;
   color: #ffffff;
 }
+.office-loc, 
+.phone,
+.email{
+  margin: 10px auto;
+}
 
 /**************MEDIA QUERIES*****************/
 /* Smartphones (portrait and landscape) ----------- */
